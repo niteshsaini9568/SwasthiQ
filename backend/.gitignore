@@ -1,0 +1,48 @@
+# Ignore virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ignore IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
+
+# Ignore database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore temp files
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Ignore pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/
